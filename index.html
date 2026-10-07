@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Image Reveal Study</title>
+
+  <!-- jsPsych core -->
+  <script src="https://unpkg.com/jspsych@8.3.0"></script>
+  <link href="https://unpkg.com/jspsych@8.3.0/css/jspsych.css" rel="stylesheet" type="text/css" />
+
+  <!-- jsPsych plugins -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.2.0"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.1.0"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-text@2.1.1"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-preload@2.1.0"></script>
+
+  <!-- DataPipe extension: streams each trial's data to your DataPipe
+       experiment (and the storage provider you connected it to -- Zenodo)
+       as it's produced, not only at the very end of the session. -->
+  <script src="https://unpkg.com/@jspsych/extension-pipe@0.2.0"></script>
+
+  <!-- This study's own files -->
+  <script src="js/jspsych-plugin-image-reveal.js"></script>
+  <script src="js/stimuli.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <script src="js/experiment.js"></script>
+</body>
+</html>

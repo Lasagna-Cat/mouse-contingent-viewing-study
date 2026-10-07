@@ -1,0 +1,52 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1a1a1a;
+  background: #fafafa;
+}
+
+.reveal-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.reveal-container {
+  position: relative;
+  margin: 0 auto;
+  background: #000;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.reveal-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+.reveal-instructions {
+  font-size: 16px;
+  color: #444;
+}
+
+.question-prompt,
+.debrief-text,
+.consent-text {
+  max-width: 650px;
+  margin: 40px auto;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.jspsych-btn {
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
