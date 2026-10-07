@@ -11,10 +11,10 @@
  */
 
 const STIMULI = [
-  { item_id: "item_01", image: "/images/placeholder-1.png", question: "What is the main object shown in this image?" },
-  { item_id: "item_02", image: "/images/placeholder-2.png"", question: "How many distinct shapes can you count?" },
-  { item_id: "item_03", image: "/images/placeholder-3.png"", question: "What color dominates the right half of the image?" },
-  { item_id: "item_04", image: "/images/placeholder-4.png"", question: "Describe anything unusual you notice." }
+  { item_id: "item_01", image: "images/placeholder-1.png", question: "What is the main object shown in this image?" },
+  { item_id: "item_02", image: "images/placeholder-2.png"", question: "How many distinct shapes can you count?" },
+  { item_id: "item_03", image: "images/placeholder-3.png"", question: "What color dominates the right half of the image?" },
+  { item_id: "item_04", image: "images/placeholder-4.png"", question: "Describe anything unusual you notice." }
 ];
 
 const CONSENT_HTML = `
