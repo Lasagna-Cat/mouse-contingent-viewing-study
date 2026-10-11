@@ -33,7 +33,7 @@ class ImageRevealPlugin {
 
   trial(display_element, trial) {
     const revealRadius = trial.reveal_radius ?? 90;
-    const blurAmount = trial.blur_amount ?? 90;
+    const blurAmount = trial.blur_amount ?? 18;
     const containerW = trial.container_width ?? 700;
     const containerH = trial.container_height ?? 500;
     const minViewMs = trial.min_view_time ?? 0;
