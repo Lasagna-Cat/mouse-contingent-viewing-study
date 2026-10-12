@@ -7,7 +7,7 @@
  * ==================================================================== */
 const DATAPIPE_EXPERIMENT_ID = "YgWLJd47aJRp"; // from pipe.jspsych.org, after connecting Zenodo
 const REVEAL_RADIUS_PX = 90;    // radius of the sharp "spotlight" circle, in px
-const BLUR_AMOUNT_PX = 90;      // blur strength applied to the rest of the image, in px
+const BLUR_AMOUNT_PX = 30;      // blur strength applied to the rest of the image, in px
 const IMAGE_CONTAINER_W = 700;  // fixed display size for every image --
 const IMAGE_CONTAINER_H = 500;  // keep this constant across trials/participants so that
                                  // mouse coordinates are comparable across the whole dataset
